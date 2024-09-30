@@ -1,0 +1,1 @@
+class WrongOperationTypeException(val operationType: String) : Exception("Введен неизвестный тип операции: $operationType")
